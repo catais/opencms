@@ -12,11 +12,32 @@ OpenCMS is a premium, high-fidelity AI social-commerce management platform, rebu
 
 ---
 
-## Installation & Usage
+## Quick Start (Recommended)
 
-Installing the platform locally takes less than 5 minutes. Since OpenCMS utilizes a file-based SQLite database, you do **not** need to install MySQL or configure complicated database servers.
+The fastest way to start building a new OpenCMS project is to use the official CLI tool. It will automatically download the repository, configure a fresh Git environment, set up your local environment variables, and install all dependencies.
 
-Follow these simple steps to launch your store:
+Open your terminal and run:
+
+```bash
+npx @opencmsai/create-opencms@latest
+```
+
+Follow the beautiful interactive prompts to name your project. Once complete, navigate into your new directory and start the server:
+
+```bash
+cd <your-project-name>
+npm run dev
+```
+
+The system will boot up. Open your web browser and navigate to:
+
+**[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## Manual Installation
+
+If you prefer to install the repository manually:
 
 ### Prerequisites
 
@@ -60,6 +81,8 @@ npm run dev
 The system will boot up. Open your web browser and navigate to:
 
 **[http://localhost:3000](http://localhost:3000)**
+
+---
 
 ### Step 5: The Setup Wizard
 
