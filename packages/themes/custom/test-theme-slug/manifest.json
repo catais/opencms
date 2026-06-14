@@ -1,0 +1,17 @@
+{
+  "name": "Custom Neo Brutalist",
+  "slug": "test-theme-slug",
+  "description": "A high-fidelity test manual drop theme featuring heavy outlines and cozy vibes.",
+  "version": "1.0.0",
+  "author": "Antigravity Dev",
+  "config": {
+    "primaryColor": "#D97706",
+    "secondaryColor": "#1E293B",
+    "backgroundColor": "#FEF3C7",
+    "textColor": "#1E293B",
+    "fontFamily": "Inter, sans-serif",
+    "headerStyle": "static",
+    "footerColumns": 3,
+    "showSidebarOnBlog": false
+  }
+}

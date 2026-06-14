@@ -1,0 +1,16 @@
+{
+  "name": "Custom Google Analytics",
+  "slug": "test-plugin-slug",
+  "description": "Injects Google Analytics 4 tags into storefront headers dynamically.",
+  "version": "1.0.0",
+  "author": "Antigravity Dev",
+  "settingsFields": [
+    {
+      "key": "measurementId",
+      "label": "GA4 Measurement ID",
+      "type": "text",
+      "defaultValue": "G-XXXXXXXXXX",
+      "helpText": "Google Analytics tracking stream identifier"
+    }
+  ]
+}

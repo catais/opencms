@@ -1,0 +1,22 @@
+{
+  "name": "opencms-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "start": "npm run start --workspace=apps/web",
+    "db:generate": "npm run generate --workspace=packages/database",
+    "db:migrate": "npm run migrate --workspace=packages/database",
+    "db:seed": "npm run seed --workspace=packages/database",
+    "db:setup": "npm run setup --workspace=packages/database"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  }
+}
