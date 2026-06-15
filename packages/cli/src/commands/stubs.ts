@@ -90,8 +90,6 @@ export function registerStubCommands(program: Command) {
     { name: 'make:module', desc: 'Create a new module' },
     { name: 'make:service', desc: 'Create a new service' },
     { name: 'make:repository', desc: 'Create a new repository' },
-    { name: 'ai:install', desc: 'Install AI components' },
-    { name: 'ai:agent:create', desc: 'Create AI agent' },
     { name: 'social:connect', desc: 'Connect social accounts' },
     { name: 'workspace:list', desc: 'List workspaces' },
     { name: 'user:list', desc: 'List users' },
