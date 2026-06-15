@@ -26,6 +26,7 @@ import { registerDbCommands } from './commands/db.js';
 import { registerAuthCommands } from './commands/auth.js';
 import { registerAppCommands } from './commands/app.js';
 import { registerCacheCommands } from './commands/cache.js';
+import { registerEcommerceCommands } from './commands/ecommerce.js';
 import { registerStubCommands } from './commands/stubs.js';
 
 registerMakeCommands(program);
@@ -33,6 +34,7 @@ registerDbCommands(program);
 registerAuthCommands(program);
 registerAppCommands(program);
 registerCacheCommands(program);
+registerEcommerceCommands(program);
 registerStubCommands(program); // For commands coming in future phases
 
 program.parse(process.argv);

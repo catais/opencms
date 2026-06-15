@@ -1,6 +1,6 @@
 {
   "name": "@opencmsai/cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The Premium AI Social-Commerce Platform CLI",
   "main": "dist/index.js",
   "bin": {
@@ -22,6 +22,7 @@
   "dependencies": {
     "@clack/prompts": "^0.7.0",
     "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
     "commander": "^12.1.0",
     "execa": "^8.0.1",
     "figlet": "^1.7.0",
