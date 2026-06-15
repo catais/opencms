@@ -1,7 +1,7 @@
 {
   "name": "@opencmsai/cli",
-  "version": "1.0.0",
-  "description": "The OpenCMS Command Line Interface",
+  "version": "1.1.0",
+  "description": "The Premium AI Social-Commerce Platform CLI",
   "main": "dist/index.js",
   "bin": {
     "opencms": "dist/index.js"
