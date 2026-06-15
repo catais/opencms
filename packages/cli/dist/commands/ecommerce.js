@@ -3,6 +3,8 @@ import fs from 'fs-extra';
 import path from 'path';
 // @ts-ignore
 import Table from 'cli-table3';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 export function registerEcommerceCommands(program) {
     program
         .command('ecommerce:install')

@@ -1,6 +1,6 @@
 {
   "name": "@opencmsai/cli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The Premium AI Social-Commerce Platform CLI",
   "main": "dist/index.js",
   "bin": {
